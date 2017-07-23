@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仿真模拟考试"
+        android:textSize="25sp"
+        android:textColor="@color/colorTheme"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="考试内容"
+        android:layout_marginLeft="60dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorTheme"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单选题：40题，每题1分"
+        android:layout_marginLeft="95dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选题：20题，每题2分"
+        android:layout_marginLeft="95dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="判断题：20题，每题1分"
+        android:layout_marginLeft="95dp"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="考试时间"
+        android:layout_marginLeft="60dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorTheme"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60分钟"
+        android:layout_marginLeft="95dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@color/colorTheme"
+        android:text="开始考试"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"/>
+</LinearLayout>
