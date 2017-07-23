@@ -14,7 +14,6 @@
         android:src="@drawable/icon"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="120dp"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="50dp"

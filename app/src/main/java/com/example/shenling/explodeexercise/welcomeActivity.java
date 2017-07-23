@@ -25,4 +25,5 @@ public class welcomeActivity extends Activity{
             welcomeActivity.this.finish();
         }
     }
+
 }
